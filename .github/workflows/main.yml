@@ -24,6 +24,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            gabrielxxra/live-kube-news:v1
+            gabrielxxra/live-kube-news:${{github.run_number}}
             gabrielxxra/live-kube-news:latest
             
